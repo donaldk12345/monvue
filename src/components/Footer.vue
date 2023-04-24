@@ -44,13 +44,7 @@
               </li>
           </ul>
         <span class="block text-sm text-center text-gray-500 dark:text-gray-400 pt-4">© 2022 Ynodev™. All Rights Reserved.
-  		<!--  Built with 
-          <a href="https://flowbite.com"
-  			class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and 
-              <a
-  			href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind
-        			CSS
-                </a>. -->
+
         
         </span>
     </div>

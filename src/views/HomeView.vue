@@ -1,10 +1,10 @@
 <!-- eslint-disable no-mixed-spaces-and-tabs -->
 <!-- eslint-disable no-mixed-spaces-and-tabs -->
 <template>
-    <div class="bg-fixed w-full" style="background-image: linear-gradient(rgba(57, 49, 49, 0.618),rgba(57, 49, 49, 0.618)),url(images/php.jpg);height: 70vh; background-position: center center; background-size: cover; background-repeat: no-repeat;">
-      <div class="m-auto flex max-w-sm flex-col items-center pt-3"><br><br><br>
-         <h3 class="max-w-2xl text-center text-3xl font-bold leading-tight md:text-3xl sm:text-2xl md:leading-tight text-neutral-100">Bienvenue sur Ynodev</h3>
-          <p class="mt-3 text-center  text-neutral-300 text-sm">Votre service de digitalisation et réalisation de vos projets dans le domaine des TIC</p>
+    <div class="w-full bg-fixed" style="background-image: linear-gradient(rgba(57, 49, 49, 0.618),rgba(57, 49, 49, 0.618)),url(images/php.jpg);height: 70vh; background-position: center center; background-size: cover; background-repeat: no-repeat;">
+      <div class="flex flex-col items-center max-w-sm pt-3 m-auto"><br><br><br>
+         <h3 class="max-w-2xl text-3xl font-bold leading-tight text-center md:text-3xl sm:text-2xl md:leading-tight text-neutral-100">Bienvenue sur Ynodev</h3>
+          <p class="mt-3 text-sm text-center text-neutral-300">Votre service de digitalisation et réalisation de vos projets dans le domaine des TIC</p>
      
 
       </div>
@@ -14,10 +14,10 @@
                   <img class="w-[350px] mx-auto my-auto" src="images/dev.jpg" alt="" />
 
            
-                <div class=" justify-center text-center px-2 mt-2 m-auto">
+                <div class="justify-center px-2 m-auto mt-2 text-center ">
                   <p class="font-bold text-blue-300">Nous connaitte</p>
-                  <h1 class="md:text-3xl sm:text-1xl font-bold py-2  text-gray-500 dark:text-gray-400">C'est quoi Ynodev ?</h1>
-                  <p class="text-center  font-mono text-gray-500 dark:text-gray-400 text-sm">
+                  <h1 class="py-2 font-bold text-gray-500 md:text-3xl sm:text-1xl dark:text-gray-400">C'est quoi Ynodev ?</h1>
+                  <p class="font-mono text-sm text-center text-gray-500 dark:text-gray-400">
                       Ynodev est une  plateforme créer pour répondre au bésoin des entreprise  dans le domaine des TIC notament en développement 
                       d'applications , maintenance informatique et réseaux .
                       </p>
@@ -30,15 +30,15 @@
           </div>
 
 
-    <div class="w-full  bg-primary-light px-20 py-14">
-      <div class="mx-auto flex max-w-sm flex-col items-center">
-        <h3 class="max-w-2xl text-center text-2xl font-bold leading-tight sm:text-3xl md:text-2xl md:leading-tight">S'abonner</h3>
-        <p class="mt-3 text-center  text-gray-500 dark:text-gray-400 text-sm">Abonnez vous à notre news letter afin de bénéficier des meilleurs offres et astuces</p>
-        <form action="" class="mx-auto mt-6 flex w-full flex-col gap-1 px-2 sm:flex-row">
-            <input class="block w-full mt-1 text-sm  dark:bg-gray-700 focus:outline-none  dark:text-gray-300  form-input" name="email"   v-model="email"
+    <div class="w-full px-20 bg-primary-light py-14">
+      <div class="flex flex-col items-center max-w-sm mx-auto">
+        <h3 class="max-w-2xl text-2xl font-bold leading-tight text-center sm:text-3xl md:text-2xl md:leading-tight">S'abonner</h3>
+        <p class="mt-3 text-sm text-center text-gray-500 dark:text-gray-400">Abonnez vous à notre news letter afin de bénéficier des meilleurs offres et astuces de Ynodev</p>
+        <form action="" class="flex flex-col w-full gap-1 px-2 mx-auto mt-6 sm:flex-row">
+            <input class="block w-full mt-1 text-sm dark:bg-gray-700 focus:outline-none dark:text-gray-300 form-input" name="email"   v-model="email"
                         placeholder="Veillez saisir votre adresse mail" 
                       />
-          <button type="submit" class="rounded-lg bg-stone-900 px-3 py-3 font-bold text-white">Envoyer</button>
+          <button type="submit" class="px-3 py-3 font-bold text-white rounded-lg bg-stone-900">Envoyer</button>
         </form>
       </div>
     </div>
